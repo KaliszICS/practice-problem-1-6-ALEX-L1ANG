@@ -20,9 +20,9 @@ public class PracticeProblem {
 
 	public static void q1() {
 		//Write question 1 code here
-	
+
+Scanner input = new Scanner(System.in);
 	boolean torf;
-	Scanner input = new Scanner(System.in);
 	System.out.println("Input a boolean: ");
 	torf = input.nextLine();
 	System.out.println(torf);
@@ -43,9 +43,9 @@ public class PracticeProblem {
 	public static void q3() {	
 		//Write question 3 code here
 
+Scanner input = new Scanner(System.in);
 	String ans = "pizza";
 	String ansClient;
-	Scanner input = newScanner(System.in);
 	System.out.println("Input pizza: ");
 	ansClient = input.nextLine();
 	boolean result = ansClient.equals(ans);
@@ -56,8 +56,9 @@ public class PracticeProblem {
 	public static void q4() {
 		//Write question 4 code here
 
+
+Scanner input = new Scanner(System.in);
 	int number;
-	Scanner input = new Scanner(System.in);
 	System.out.println("Input an integer: ");
 	number = input.nextInt();
 	input.nextLine();
@@ -69,8 +70,8 @@ public class PracticeProblem {
 	public static void q5() {
 		//Write question 5 code here
 	
+Scanner input = new Scanner(System.in);
 	int number2;
-	Scanner input = new Scanner(System.in);
 	System.out.println("Input an integer: ");
 	number2 = input.nextInt();
 	input.nextLine();
@@ -81,10 +82,10 @@ public class PracticeProblem {
 
 	public static void q6() {
 		//Write question 6 code here
-	
+
+Scanner input = new Scanner(System.in);
 	String ans = "google";
 	String inputClient;
-	Scanner input = newScanner(System.in);
 	System.out.println("Input a word earlier than google: ");
 	inputClient = input.nextLine();
 	System.out.println(inputClient.compareTo(ans) < 0);
