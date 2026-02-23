@@ -23,9 +23,10 @@ public class PracticeProblem {
 
 Scanner input = new Scanner(System.in);
 	String torf;
-	System.out.println("Input a boolean: ");
+	System.out.print("Input a boolean: ");
 	torf = input.nextLine();
-	System.out.println(torf);
+	System.out.print(torf);
+	System.out.println();
 	}
 
 	public static void q2() {
@@ -33,11 +34,12 @@ Scanner input = new Scanner(System.in);
 	
 	int integer;
 	Scanner input = new Scanner(System.in);
-	System.out.println("Input an integer: ");
+	System.out.print("Input an integer: ");
 	integer = input.nextInt();
 	input.nextLine();
 	boolean greaterThan = integer > 5;
-	System.out.println(greaterThan);
+	System.out.print(greaterThan);
+	System.out.println();
 	}
 
 	public static void q3() {	
@@ -46,17 +48,17 @@ Scanner input = new Scanner(System.in);
 Scanner input = new Scanner(System.in);
 	String ans = "pizza";
 	String ansClient;
-	System.out.println("Input pizza: ");
+	System.out.print("Input pizza: ");
 	ansClient = input.nextLine();
 	boolean result = ansClient.equals(ans);
-	System.out.println(result);
+	System.out.print(result);
+	System.out.println();
 
 	}
 
 	public static void q4() {
 		//Write question 4 code here
-
-
+	
 Scanner input = new Scanner(System.in);
 	int number;
 	System.out.println("Input an integer: ");
@@ -72,11 +74,12 @@ Scanner input = new Scanner(System.in);
 	
 Scanner input = new Scanner(System.in);
 	int number2;
-	System.out.println("Input an integer: ");
+	System.out.print("Input an integer: ");
 	number2 = input.nextInt();
 	input.nextLine();
 	boolean notZero = number2 != 0;
-	System.out.println(notZero);	
+	System.out.print(notZero);	
+	System.out.println();
 	
 	}
 
@@ -86,9 +89,10 @@ Scanner input = new Scanner(System.in);
 Scanner input = new Scanner(System.in);
 	String ans = "google";
 	String inputClient;
-	System.out.println("Input a word earlier than google: ");
+	System.out.print("Input a word earlier than google: ");
 	inputClient = input.nextLine();
-	System.out.println(inputClient.compareTo(ans) < 0);
+	System.out.print(inputClient.compareTo(ans) < 0);
+	System.out.println();
 	
 	}
 
