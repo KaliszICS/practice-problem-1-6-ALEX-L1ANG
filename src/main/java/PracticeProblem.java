@@ -60,12 +60,11 @@ Scanner input = new Scanner(System.in);
 		//Write question 4 code here
 	
 Scanner input = new Scanner(System.in);
-	int number;
-	System.out.println("Input an integer: ");
-	number = input.nextInt();
-	input.nextLine();
-	boolean zero = number == 0;
-	System.out.println(zero);
+	String number;
+	System.out.print("Input a number: ");
+	number = input.nextLine();
+	System.out.print(number.equals("0.0"));
+	System.out.println();
 
 	}
 
