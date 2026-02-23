@@ -22,7 +22,7 @@ public class PracticeProblem {
 		//Write question 1 code here
 
 Scanner input = new Scanner(System.in);
-	boolean torf;
+	String torf;
 	System.out.println("Input a boolean: ");
 	torf = input.nextLine();
 	System.out.println(torf);
@@ -75,7 +75,7 @@ Scanner input = new Scanner(System.in);
 	System.out.println("Input an integer: ");
 	number2 = input.nextInt();
 	input.nextLine();
-	boolean notZero = number != 0;
+	boolean notZero = number2 != 0;
 	System.out.println(notZero);	
 	
 	}
